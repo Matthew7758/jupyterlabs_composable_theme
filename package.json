@@ -1,7 +1,7 @@
 {
     "name": "jupyterlab-composable-theme",
     "version": "0.1.0",
-    "description": "A JupyterLab theme for Composable Analytics.",
+    "description": "A JupyterLab theme extension for Composable Analytics.",
     "keywords": [
         "jupyter",
         "jupyterlab",
@@ -13,7 +13,7 @@
     },
     "license": "BSD-3-Clause",
     "author": {
-        "name": "jupyterlab-composable-theme",
+        "name": "Composable Analytics",
         "email": "mmalone@composableanalytics.com"
     },
     "files": [
@@ -53,11 +53,11 @@
         "watch:labextension": "jupyter labextension watch ."
     },
     "dependencies": {
-        "@jupyterlab/application": "^3.0.0",
-        "@jupyterlab/apputils": "^3.0.0"
+        "@jupyterlab/application": "^4.0.0",
+        "@jupyterlab/apputils": "^4.0.0"
     },
     "devDependencies": {
-        "@jupyterlab/builder": "^3.0.0",
+        "@jupyterlab/builder": "^4.0.0",
         "@types/json-schema": "^7.0.11",
         "@types/react": "^18.0.26",
         "@types/react-addons-linked-state-mixin": "^0.14.22",

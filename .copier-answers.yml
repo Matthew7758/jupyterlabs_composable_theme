@@ -2,7 +2,7 @@
 _commit: v4.2.1
 _src_path: https://github.com/jupyterlab/extension-template
 author_email: mmalone@composableanalytics.com
-author_name: jupyterlab-composable-theme
+author_name: Composable Analytics
 data_format: string
 file_extension: ''
 has_binder: true
@@ -11,7 +11,7 @@ kind: theme
 labextension_name: jupyterlab-composable-theme
 mimetype: ''
 mimetype_name: ''
-project_short_description: A JupyterLab theme for Composable Analytics.
+project_short_description: A JupyterLab theme extension for Composable Analytics.
 python_name: jupyterlab_composable_theme
 repository: https://github.com/Matthew7758/jupyterlab_composable_theme
 test: false

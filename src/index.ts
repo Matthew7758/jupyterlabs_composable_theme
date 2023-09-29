@@ -10,7 +10,7 @@ import { IThemeManager } from '@jupyterlab/apputils';
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: 'jupyterlab-composable-theme:plugin',
-  description: 'A JupyterLab theme for Composable Analytics.',
+  description: 'A JupyterLab theme extension for Composable Analytics.',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {

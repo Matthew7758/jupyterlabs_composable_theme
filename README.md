@@ -1,7 +1,7 @@
 # jupyterlab_composable_theme
 
 [![Github Actions Status](https://github.com/Matthew7758/jupyterlab_composable_theme/workflows/Build/badge.svg)](https://github.com/Matthew7758/jupyterlab_composable_theme/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Matthew7758/jupyterlab_composable_theme/main?urlpath=lab)
-A JupyterLab theme for Composable Analytics.
+A JupyterLab theme extension for Composable Analytics.
 
 ## Requirements
 
