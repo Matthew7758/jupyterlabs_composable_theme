@@ -1,9 +1,10 @@
 [build-system]
-requires = ["hatchling>=1.5.0", "jupyterlab>=4.0.0,<5", "hatch-nodejs-version"]
+requires = ["hatchling>=1.5.0", "jupyterlab>=3.4.5,<5", "hatch-nodejs-version>=0.3.2"]
 build-backend = "hatchling.build"
 
+
 [project]
-name = "jupyterlab_composable_theme"
+name = "jupyterlabs_composable_theme"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.8"
@@ -32,23 +33,23 @@ source = "nodejs"
 fields = ["description", "authors", "urls"]
 
 [tool.hatch.build.targets.sdist]
-artifacts = ["jupyterlab_composable_theme/labextension"]
+artifacts = ["jupyterlabs_composable_theme/labextension"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_composable_theme/labextension" = "share/jupyter/labextensions/jupyterlab-composable-theme"
-"install.json" = "share/jupyter/labextensions/jupyterlab-composable-theme/install.json"
+"jupyterlabs_composable_theme/labextension" = "share/jupyter/labextensions/jupyterlabs-composable-theme"
+"install.json" = "share/jupyter/labextensions/jupyterlabs-composable-theme/install.json"
 
 [tool.hatch.build.hooks.version]
-path = "jupyterlab_composable_theme/_version.py"
+path = "jupyterlabs_composable_theme/_version.py"
 
 [tool.hatch.build.hooks.jupyter-builder]
 dependencies = ["hatch-jupyter-builder>=0.5"]
 build-function = "hatch_jupyter_builder.npm_builder"
 ensured-targets = [
-    "jupyterlab_composable_theme/labextension/package.json",
+    "jupyterlabs_composable_theme/labextension/package.json",
 ]
-skip-if-exists = ["jupyterlab_composable_theme/labextension/static/style.js"]
+skip-if-exists = ["jupyterlabs_composable_theme/labextension/static/style.js"]
 
 [tool.hatch.build.hooks.jupyter-builder.build-kwargs]
 build_cmd = "build:prod"
@@ -58,14 +59,14 @@ npm = ["jlpm"]
 build_cmd = "install:extension"
 npm = ["jlpm"]
 source_dir = "src"
-build_dir = "jupyterlab_composable_theme/labextension"
+build_dir = "jupyterlabs_composable_theme/labextension"
 
 [tool.jupyter-releaser.options]
 version_cmd = "hatch version"
 
 [tool.jupyter-releaser.hooks]
 before-build-npm = [
-    "python -m pip install 'jupyterlab>=4.0.0,<5'",
+    "python -m pip install 'jupyterlab>=3.4.5,<5'",
     "jlpm",
     "jlpm build:prod"
 ]
