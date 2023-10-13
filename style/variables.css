@@ -289,22 +289,24 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-switch-cursor-color: rgba(0, 0, 0, 0.8);
 
   /* User colors */
-
-  --jp-collaborator-color1: #ad4a00;
-  --jp-collaborator-color2: #7b6a00;
-  --jp-collaborator-color3: #007e00;
-  --jp-collaborator-color4: #008772;
-  --jp-collaborator-color5: #0079b9;
-  --jp-collaborator-color6: #8b45c6;
+  --jp-collaborator-color1: #8b45c6;
+  --jp-collaborator-color2: #ad4a00;
+  --jp-collaborator-color3: #7b6a00;
+  --jp-collaborator-color4: #007e00;
+  --jp-collaborator-color5: #008772;
+  --jp-collaborator-color6: #0079b9;
   --jp-collaborator-color7: #be208b;
 
   #jp-MainLogo {
     background-image: url(images/ComposableIcon.svg);
     background-repeat: no-repeat;
+    margin-left: 10px;
   }
 
-  #jp-MainLogo>svg {
-    display: none;
+  /* JupyterLab logo on top left corner */
+  .f1xpzunt {
+    visibility: hidden;
+    margin-left: 10px;
   }
 
   /* Loading animation */

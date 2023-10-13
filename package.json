@@ -1,7 +1,7 @@
 {
-    "name": "jupyterlabs-composable-theme",
-    "version": "0.2.0",
-    "description": "A JupyterLab extension for Composable Analytics.",
+    "name": "jupyterlab_ca_theme",
+    "version": "0.3.0",
+    "description": "A JupyterLab theme extension for Composable Analytics.",
     "keywords": [
         "jupyter",
         "jupyterlab",
