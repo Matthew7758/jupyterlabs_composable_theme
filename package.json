@@ -1,7 +1,7 @@
 {
     "name": "jupyterlab-ca-theme",
-    "version": "0.3.0",
-    "description": "A JupyterLab theme extension for Composable Analytics.",
+    "version": "0.1.0",
+    "description": "A JupyterLab theme extension for Composable Analytics DataLabs.",
     "keywords": [
         "jupyter",
         "jupyterlab",
@@ -13,7 +13,7 @@
     },
     "license": "BSD-3-Clause",
     "author": {
-        "name": "Composable",
+        "name": "Composable Analytics",
         "email": "mmalone@composableanalytics.com"
     },
     "files": [

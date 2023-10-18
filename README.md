@@ -1,7 +1,7 @@
 # jupyterlab_ca_theme
 
-[![Github Actions Status](https://github.com/Matthew7758/jupyterlab_ca_theme/workflows/Build/badge.svg)](https://github.com/Matthew7758/jupyterlab_ca_theme/actions/workflows/build.yml)
-A JupyterLab theme extension for Composable Analytics.
+[![Github Actions Status](https://github.com/Matthew7758/jupyterlab_ca_theme/workflows/Build/badge.svg)](https://github.com/Matthew7758/jupyterlab_ca_theme/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Matthew7758/jupyterlab_ca_theme/main?urlpath=lab)
+A JupyterLab theme extension for Composable Analytics DataLabs.
 
 ## Requirements
 
