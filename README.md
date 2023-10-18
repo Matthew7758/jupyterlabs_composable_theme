@@ -1,7 +1,7 @@
-# jupyterlabs_composable_theme
+# jupyterlab_ca_theme
 
-[![Github Actions Status](https://github.com/Matthew7758/jupyterlabs_composable_theme/workflows/Build/badge.svg)](https://github.com/Matthew7758/jupyterlabs_composable_theme/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Matthew7758/jupyterlabs_composable_theme/main?urlpath=lab)
-A JupyterLab extension for Composable Analytics.
+[![Github Actions Status](https://github.com/Matthew7758/jupyterlab_ca_theme/workflows/Build/badge.svg)](https://github.com/Matthew7758/jupyterlab_ca_theme/actions/workflows/build.yml)
+A JupyterLab theme extension for Composable Analytics.
 
 ## Requirements
 
@@ -12,7 +12,7 @@ A JupyterLab extension for Composable Analytics.
 To install the extension, execute:
 
 ```bash
-pip install jupyterlabs_composable_theme
+pip install jupyterlab_ca_theme
 ```
 
 ## Uninstall
@@ -20,7 +20,7 @@ pip install jupyterlabs_composable_theme
 To remove the extension, execute:
 
 ```bash
-pip uninstall jupyterlabs_composable_theme
+pip uninstall jupyterlab_ca_theme
 ```
 
 ## Contributing
@@ -35,7 +35,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the jupyterlabs_composable_theme directory
+# Change directory to the jupyterlab_ca_theme directory
 # Install package in development mode
 pip install -e "."
 # Link your development version of the extension with JupyterLab
@@ -64,12 +64,12 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall jupyterlabs_composable_theme
+pip uninstall jupyterlab_ca_theme
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyterlabs-composable-theme` within that folder.
+folder is located. Then you can remove the symlink named `jupyterlab-ca-theme` within that folder.
 
 ### Packaging the extension
 

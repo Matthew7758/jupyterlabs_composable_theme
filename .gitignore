@@ -7,9 +7,9 @@ node_modules/
 *.egg-info/
 .ipynb_checkpoints
 *.tsbuildinfo
-jupyterlabs_composable_theme/labextension
+jupyterlab_ca_theme/labextension
 # Version file is handled by hatchling
-jupyterlabs_composable_theme/_version.py
+jupyterlab_ca_theme/_version.py
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python

@@ -6,19 +6,19 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * Initialization data for the jupyterlabs-composable-theme extension.
+ * Initialization data for the jupyterlab-ca-theme extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlabs-composable-theme:plugin',
-  description: 'A JupyterLab extension for Composable Analytics.',
+  id: 'jupyterlab-ca-theme:plugin',
+  description: 'A JupyterLab theme extension for Composable Analytics.',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    console.log('JupyterLab extension jupyterlabs-composable-theme is activated!');
-    const style = 'jupyterlabs-composable-theme/index.css';
+    console.log('JupyterLab extension jupyterlab-ca-theme is activated!');
+    const style = 'jupyterlab-ca-theme/index.css';
 
     manager.register({
-      name: 'jupyterlabs-composable-theme',
+      name: 'jupyterlab-ca-theme',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)

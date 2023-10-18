@@ -3,4 +3,4 @@ node_modules
 **/lib
 **/package.json
 !/package.json
-jupyterlabs_composable_theme
+jupyterlab_ca_theme
