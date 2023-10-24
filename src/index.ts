@@ -10,7 +10,6 @@ import { IThemeManager } from '@jupyterlab/apputils';
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: 'jupyterlab-ca-theme:plugin',
-  description: 'A JupyterLab theme extension for Composable DataLabs.',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {

@@ -18,7 +18,7 @@ jobs:
       uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
 
     - name: Install dependencies
-      run: python -m pip install -U "jupyterlab>=4.0.0,<5"
+      run: python -m pip install -U jupyterlab~=3.1
 
     - name: Lint the extension
       run: |
@@ -72,12 +72,12 @@ jobs:
         sudo rm -rf $(which node)
         sudo rm -rf $(which node)
 
-        pip install "jupyterlab>=4.0.0,<5" jupyterlab_ca_theme*.whl
+        pip install "jupyterlab~=3.1" jupyterlab_ca_theme*.whl
 
 
         jupyter labextension list
         jupyter labextension list 2>&1 | grep -ie "jupyterlab-ca-theme.*OK"
-        python -m jupyterlab.browser_check --no-browser-test
+        python -m jupyterlab.browser_check --no-chrome-test
 
 
   check_links:

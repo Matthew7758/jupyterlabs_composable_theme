@@ -5,7 +5,7 @@ A JupyterLab theme extension for Composable DataLabs.
 
 ## Requirements
 
-- JupyterLab >= 4.0.0
+- JupyterLab >= 3.0
 
 ## Install
 
