@@ -165,6 +165,7 @@
     "rules": {
       "property-no-vendor-prefix": null,
       "selector-no-vendor-prefix": null,
+      "selector-class-pattern": null,
       "value-no-vendor-prefix": null,
       "alpha-value-notation": null,
       "color-function-notation": null
