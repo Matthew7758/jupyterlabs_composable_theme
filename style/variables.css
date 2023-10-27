@@ -34,18 +34,24 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-shadow-base-lightness: 0;
-  --jp-shadow-umbra-color: rgba(var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      0.2);
-  --jp-shadow-penumbra-color: rgba(var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      0.14);
-  --jp-shadow-ambient-color: rgba(var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      0.12);
+  --jp-shadow-umbra-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.2
+  );
+  --jp-shadow-penumbra-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.14
+  );
+  --jp-shadow-ambient-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.12
+  );
   --jp-elevation-z0: none;
   --jp-elevation-z1: 0px 2px 1px -1px var(--jp-shadow-umbra-color),
     0px 1px 1px 0px var(--jp-shadow-penumbra-color),
@@ -230,13 +236,13 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* State colors (warn, error, success, info) */
 
-  --jp-warn-color0: #00A65A;
+  --jp-warn-color0: #00a65a;
   /*var(--md-orange-700);*/
-  --jp-warn-color1: #00A65A;
+  --jp-warn-color1: #00a65a;
   /*var(--md-orange-500);*/
-  --jp-warn-color2: #00A65A;
+  --jp-warn-color2: #00a65a;
   /*var(--md-orange-300);*/
-  --jp-warn-color3: #00A65A;
+  --jp-warn-color3: #00a65a;
   /*var(--md-orange-100);*/
 
   --jp-error-color0: var(--md-red-700);
@@ -280,12 +286,12 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-inprompt-font-color: #307fc1;
   /* A custom blend of MD grey and orange 600
    * https://meyerweb.com/eric/tools/color-blend/#546E7A:F4511E:5:hex */
-  --jp-cell-outprompt-font-color: #0c5489
-    /*#bf5b3d;*/
+  --jp-cell-outprompt-font-color: #0c5489;
+  /*#bf5b3d;*/
 
-    /* Notebook specific styles */
+  /* Notebook specific styles */
 
-    --jp-notebook-padding: 10px;
+  --jp-notebook-padding: 10px;
   --jp-notebook-select-background: var(--jp-layout-color1);
   --jp-notebook-multiselected-color: var(--md-blue-50);
 
@@ -295,7 +301,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   pixel so that no scrollbar appears if we have just one single-line cell in the
   notebook. This padding is to enable a 'scroll past end' feature in a notebook.
   */
-  --jp-notebook-scroll-padding: calc(100% - var(--jp-code-font-size) * var(--jp-code-line-height) - var(--jp-code-padding) - var(--jp-cell-padding) - 1px);
+  --jp-notebook-scroll-padding: calc(
+    100% - var(--jp-code-font-size) * var(--jp-code-line-height) -
+      var(--jp-code-padding) - var(--jp-cell-padding) - 1px
+  );
 
   /* Rendermime styles */
 
@@ -402,10 +411,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   /*.f1xpzunt {
     visibility: hidden;
   }*/
-  #jp-MainLogo>svg {
+  #jp-MainLogo > svg {
     visibility: hidden;
   }
-  
+
   #jp-MainLogo {
     background-image: url(./images/ComposableIcon.svg);
     background-repeat: no-repeat;
