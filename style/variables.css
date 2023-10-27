@@ -422,7 +422,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   }
 
   #jp-MainLogo {
-    background-image: url(./images/ComposableIcon.svg);
+    background-image: url("./images/ComposableIcon.svg");
     background-repeat: no-repeat;
     display: flex;
     background-position: center;
