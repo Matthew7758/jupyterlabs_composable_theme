@@ -160,13 +160,13 @@ namespace Private {
     g4.appendChild(polyline4);
     svg.appendChild(g4);
     loadingSVG.appendChild(svg);
-    let leftLine1 = document.createElement('div');
-    let leftLine2 = document.createElement('div');
-    let leftLine3 = document.createElement('div');
-    let leftLine4 = document.createElement('div');
-    let leftLine5Wrap = document.createElement('div');
-    let leftLine5 = document.createElement('div');
-    let leftLine6 = document.createElement('div');
+    const leftLine1 = document.createElement('div');
+    const leftLine2 = document.createElement('div');
+    const leftLine3 = document.createElement('div');
+    const leftLine4 = document.createElement('div');
+    const leftLine5Wrap = document.createElement('div');
+    const leftLine5 = document.createElement('div');
+    const leftLine6 = document.createElement('div');
 
     leftLine1.setAttribute('class', 'line left-line-1');
     leftLine2.setAttribute('class', 'line left-line-2');
@@ -184,13 +184,13 @@ namespace Private {
     loadingSVG.appendChild(leftLine5Wrap);
     loadingSVG.appendChild(leftLine6);
 
-    let rightLine1 = document.createElement('div');
-    let rightLine2 = document.createElement('div');
-    let rightLine3 = document.createElement('div');
-    let rightLine4 = document.createElement('div');
-    let rightLine5Wrap = document.createElement('div');
-    let rightLine5 = document.createElement('div');
-    let rightLine6 = document.createElement('div');
+    const rightLine1 = document.createElement('div');
+    const rightLine2 = document.createElement('div');
+    const rightLine3 = document.createElement('div');
+    const rightLine4 = document.createElement('div');
+    const rightLine5Wrap = document.createElement('div');
+    const rightLine5 = document.createElement('div');
+    const rightLine6 = document.createElement('div');
 
     rightLine1.setAttribute('class', 'line right-line-1');
     rightLine2.setAttribute('class', 'line right-line-2');
