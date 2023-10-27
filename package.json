@@ -132,6 +132,10 @@
         }
       ],
       "@typescript-eslint/no-explicit-any": "off",
+      "no-inner-declarations": [
+        0,
+        "always"
+      ],
       "@typescript-eslint/no-namespace": "off",
       "@typescript-eslint/no-use-before-define": "off",
       "@typescript-eslint/quotes": [
